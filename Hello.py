@@ -99,6 +99,29 @@ st.altair_chart(line_chart, use_container_width=True)
 
 
 
+# Create a bar chart for HNS with a slight offset to the left
+bar_chart_hns = alt.Chart(df).mark_bar(opacity=0.7, color='blue', xOffset=-5).encode(
+    x=alt.X('Date:T', title='Date'),
+    y=alt.Y('HNS:Q', title='Snow Totals (HNS)'),
+    tooltip=['Date', 'HNS', 'HNW']
+).properties(
+    title='Snow Totals and Snow/Water Equivalent'
+)
+
+# Create a bar chart for HNW with a slight offset to the right
+bar_chart_hnw = alt.Chart(df).mark_bar(opacity=0.7, color='green', xOffset=5).encode(
+    x='Date:T',
+    y='HNW:Q',
+    tooltip=['Date', 'HNS', 'HNW']
+)
+
+# Layer the two bar charts
+combined_chart = (bar_chart_hns + bar_chart_hnw).resolve_scale(
+    y='shared'  # This ensures both charts use the same scale for the y-axis
+)
+
+# Display the combined chart in Streamlit
+st.altair_chart(combined_chart, use_container_width=True)
 
 
 # Display data
