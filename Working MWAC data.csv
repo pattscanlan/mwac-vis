@@ -1,0 +1,183 @@
+Month,Day,Upper Elevation,Middle Elevation,Lower Elevation,Tmax,Tmin,Tavg,Wdir,Wavg,Wmax,HNS,HNW,HS
+11,1,No Rating,No Rating,No Rating,15,8,12,W,22.4,46,0.6,0.02,1
+11,2,No Rating,No Rating,No Rating,16,7,12,W,32.3,50,0,0,1
+11,3,No Rating,No Rating,No Rating,27,16,22,W,37.5,65,0,0.01,1
+11,4,No Rating,No Rating,No Rating,28,23,26,W,41.9,84,0,0,1
+11,5,No Rating,No Rating,No Rating,26,14,20,W,39.3,61,0.1,0.03,1
+11,6,No Rating,No Rating,No Rating,25,13,19,S,28.1,61,0.1,0.01,1
+11,7,No Rating,No Rating,No Rating,34,13,24,W,56,108,0.6,0.38,1
+11,8,No Rating,No Rating,No Rating,25,4,15,NW,62.4,104,1.1,0.14,2
+11,9,No Rating,No Rating,No Rating,30,18,24,W,35,75,2.1,0.4,3
+11,10,No Rating,No Rating,No Rating,21,17,19,W,56,95,1.9,0.29,3
+11,11,No Rating,No Rating,No Rating,18,7,13,W,46.8,92,0.5,0.07,3
+11,12,No Rating,No Rating,No Rating,17,13,15,N ,21.2,32,0,0,3
+11,13,No Rating,No Rating,No Rating,22,14,18,W,18.4,34,0.8,0.04,3
+11,14,No Rating,No Rating,No Rating,18,15,17,NW,35.8,63,0.3,0.01,4
+11,15,No Rating,No Rating,No Rating,30,15,23,W,42.8,77,0,0,4
+11,16,No Rating,No Rating,No Rating,31,22,27,W,36.3,70,0,0,3
+11,17,No Rating,No Rating,No Rating,39,27,33,W,50.8,87,0,0.09,3
+11,18,No Rating,No Rating,No Rating,36,8,22,NW,40,71,0,0.22,1
+11,19,No Rating,No Rating,No Rating,16,7,12,W,54.9,84,3.5,0.43,1
+11,20,No Rating,No Rating,No Rating,10,2,6,W,36.9,74,3.1,0.26,5
+11,21,No Rating,No Rating,No Rating,28,10,19,S,23.3,62,0.6,0.04,3
+11,22,No Rating,No Rating,No Rating,29,13,21,S,39.9,74,3.7,0.52,3
+11,23,No Rating,No Rating,No Rating,25,15,20,W,51.8,87,0.4,0.03,5
+11,24,No Rating,No Rating,No Rating,19,-5,7,W,65.1,97,0.4,0.02,5
+11,25,No Rating,No Rating,No Rating,19,-7,6,NW,54.3,100,0,0,5
+11,26,No Rating,No Rating,No Rating,22,18,20,SE,33.5,80,0.3,0.05,5
+11,27,No Rating,No Rating,No Rating,28,10,19,SE,53.5,83,8.3,1.91,12
+11,28,No Rating,No Rating,No Rating,11,-4,4,W,57,85,4,0.45,14
+11,29,No Rating,No Rating,No Rating,6,-5,1,NW,53.8,100,0.8,0.08,15
+11,30,No Rating,No Rating,No Rating,25,6,16,W,46.4,79,0.9,0.09,15
+12,1,No Rating,No Rating,No Rating,28,22,25,W,51.9,87,1.9,0.26,12
+12,2,No Rating,No Rating,No Rating,28,23,26,W,32.6,48,0.1,0.01,12
+12,3,No Rating,No Rating,No Rating,28,16,22,SE,24.1,50,13.1,0.93,12
+12,4,No Rating,No Rating,No Rating,20,11,16,W,34.3,61,4.4,0.45,21
+12,5,No Rating,No Rating,No Rating,12,8,10,N,22.3,44,0,0,20
+12,6,No Rating,No Rating,No Rating,14,8,11,NW,8.7,17,0,0,20
+12,7,No Rating,No Rating,No Rating,14,4,9,NW,28,71,0,0,20
+12,8,No Rating,No Rating,No Rating,28,8,18,NW,33.3,77,0,0,20
+12,9,No Rating,No Rating,No Rating,37,24,31,SW,29.5,50,0,0,21
+12,10,No Rating,No Rating,No Rating,40,34,37,SW,41.9,86,0,0,17
+12,11,No Rating,No Rating,No Rating,37,6,22,W,38.9,84,4.6,1.56,3
+12,12,No Rating,No Rating,No Rating,16,2,9,W,59.4,100,0.8,0.11,5
+12,13,No Rating,No Rating,No Rating,15,-4,6,W,60,96,3.3,0.34,5
+12,14,No Rating,No Rating,No Rating,15,-7,4,W,58.4,91,0.2,0.01,6
+12,15,No Rating,No Rating,No Rating,26,15,21,W,75.8,116,0,0,6
+12,16,No Rating,No Rating,No Rating,31,15,23,W,35.8,94,0,0,5
+12,17,No Rating,No Rating,No Rating,35,23,29,S,52,85,0.1,0.63,5
+12,18,No Rating,No Rating,No Rating,41,24,33,S,61.7,132,0,3.47,3
+12,19,No Rating,No Rating,No Rating,25,10,18,W,29,53,0.6,0.04,1
+12,20,No Rating,No Rating,No Rating,24,12,18,NW,39.3,81,0,0,1
+12,21,No Rating,No Rating,No Rating,15,0,8,NW,49.5,89,0,0,1
+12,22,No Rating,No Rating,No Rating,23,8,16,NW,18.8,35,0,0,1
+12,23,No Rating,No Rating,No Rating,28,23,26,W,18.9,32,0.1,0.01,T
+12,24,No Rating,No Rating,No Rating,27,23,25,W,22.2,38,0.3,0.05,1
+12,25,No Rating,No Rating,No Rating,29,25,27,W,31.9,58,T,T,1
+12,26,No Rating,No Rating,No Rating,33,28,31,W,43.2,61,0,0.1,T
+12,27,No Rating,No Rating,No Rating,35,32,34,W,30,53,0,0.62,T
+12,28,No Rating,No Rating,No Rating,35,31,33,SE,20,38,0.2,0.36,T
+12,29,No Rating,No Rating,No Rating,36,24,30,W,18.5,34,T,0.22,T
+12,30,No Rating,No Rating,No Rating,24,7,16,NW,20.3,40,3.8,0.32,2
+12,31,No Rating,No Rating,No Rating,20,8,14,NW,24,40,0,0,3
+1,1,No Rating,No Rating,No Rating,17,9,13,W,24.1,42,0,0,3
+1,2,No Rating,No Rating,No Rating,21,14,18,W,40,54,0,0,3
+1,3,No Rating,No Rating,No Rating,21,11,16,W,34,59,T,T,3
+1,4,No Rating,No Rating,No Rating,13,-9,2,W,47,94,1.3,0.21,3
+1,5,No Rating,No Rating,No Rating,4,-7,-1,W,66,95,1.4,0.11,3
+1,6,No Rating,No Rating,No Rating,15,1,8,W,33.2,94,0.6,0.09,3
+1,7,No Rating,No Rating,No Rating,20,4,12,NW,26.5,57,8.7,0.88,5
+1,8,No Rating,No Rating,No Rating,12,-2,5,NW,59.2,97,3.7,0.43,11
+1,9,No Rating,No Rating,No Rating,23,10,17,SE,41.3,103,8.5,1.38,11
+1,10,No Rating,No Rating,No Rating,28,13,21,SE,87.6,108,13,2.62,20
+1,11,No Rating,No Rating,No Rating,13,9,11,NW,56,88,1.3,0.1,21
+1,12,Low,Low,Low,23,7,15,W,46.7,89,0.5,0.04,21
+1,13,Con,Con,Con,30,9,20,SE,66.3,111,13.2,2.4,23
+1,14,Mod,Mod ,Low,9,-6,2,W,63.8,104,3.1,0.24,25
+1,15,Mod,Mod ,Low,2,-6,-2,W,41.6,96,0.2,0.01,25
+1,16,Con,Con,Low,15,-6,5,NW,28.5,82,5.4,0.4,25
+1,17,Con,Con,Low,-5,-11,-8,W,64.4,94,0.8,0.98,26
+1,18,Low,Mod ,Low,-3,-11,-7,W,59,81,0.6,0.06,25
+1,19,Low,Low,Low,4,-6,-1,N,36,67,0.3,0.03,23
+1,20,Low,Low ,Low,9,-3,3,N,23,46,2,0.12,23
+1,21,Low,Low,Low,10,4,7,NW,48.3,80,0.3,0.02,24
+1,22,Low,Low,Low,14,3,9,W,60.9,94,0.6,0.05,24
+1,23,Low,Low,Low,21,7,14,W,44.2,91,0,0,23
+1,24,Con,Con,Low,32,12,22,W,32,61,2.1,0.35,24
+1,25,Low,Mod ,Low,34,26,30,W,30.6,65,T,0.28,24
+1,26,Low,Low,Low,33,21,27,S,17.8,45,1.5,0.21,24
+1,27,Low,Low,Low,28,24,26,NW,14.7,24,0,0,24
+1,28,Low,Low,Low,33,21,27,W,15.5,36,2.5,0.12,24
+1,29,Mod,Mod,Low,22,12,17,N,23.3,42,0.4,0.02,26
+1,30,Mod,Mod,Low,21,12,17,W,7.8,21,0,0,25
+1,31,Mod,Mod,Low,21,15,18,NW,25.7,40,0,0,25
+2,1,Mod,Mod,Low,21,15,18,W,29.3,44,0.7,0.07,25
+2,2,Mod,Mod,Mod,18,6,12,N,20,38,1.6,0.16,25
+2,3,Mod,Mod,Mod,7,3,5,N,27.7,60,0.4,0.02,26
+2,4,Mod,Mod,Low,17,7,12,N,37,74,0,0,26
+2,5,Low,Low,Low,13,4,9,N,37,66,0,0,25
+2,6,Low,Low,Low,22,11,17,NE,22.8,39,0,0,24
+2,7,Low,Low,Low,26,19,23,N,11.3,29,0,0,24
+2,8,Low,Low,Low,30,22,26,NW,15,30,0,0,24
+2,9,Low,Low,Low,33,27,30,W,32.5,58,0,0,24
+2,10,Low,Low,Low,33,20,27,NW,49.9,85,0.5,0.06,24
+2,11,Low,Low,Low,20,14,17,NW,46,88,0.1,0.01,24
+2,12,Low,Low,Low,20,10,15,NW,26.1,50,0,0,24
+2,13,Low,Low,Low,15,4,10,N,19.9,61,0.4,0.03,24
+2,14,Low,Mod,Low,5,-13,-4,NW,67.9,109,5.1,0.4,25
+2,15,Low,Mod,Low,17,-7,5,NW,48.3,103,1.2,1.5,26
+2,16,Con,Con,Low,8,-2,3,NW,59,112,4.2,0.36,27
+2,17,Mod,Mod,Low,5,-13,4,W,48.7,106,3.2,0.27,28
+2,18,Mod,Mod,Low,3,-13,-5,W,51.8,99,1.8,0.16,29
+2,19,Mod,Mod,Low,4,-12,-4,W,59.8,95,1.3,0.12,30
+2,20,Mod,Mod,Low,13,-13,0,NW,57,91,1.6,0.17,28
+2,21,Con,Con,Mod,20,13,17,W,18.2,32,0,0,28
+2,22,Mod,Mod,Low,28,18,23,W,34.6,57,0.9,0.1,28
+2,23,Low,Mod,Low,28,20,24,NW,24.7,45,0.6,0.07,29
+2,24,Low,Mod,Low,20,-9,6,NW,51.8,76,0,0,29
+2,25,Mod,Mod,Low,15,1,8,W,37.4,58,0,0,28
+2,26,Low,Low,Low,20,13,17,NW,49.3,74,1.6,0.16,29
+2,27,Low,Low,Low,33,19,26,S,41.9,80,0.4,0.06,29
+2,28,Con,Con,Mod,37,5,21,W,47,99,1.1,0.76,28
+2,29,Low,Low,Low,5,-15,-5,W,85.5,147,1.1,0.1,27
+3,1,Low,Low,Low,20,-17,2,NW,67.2,104,0,0,27
+3,2,Low,Low,Low,31,20,26,SW,35.5,73,1.8,0.25,26
+3,3,Low,Low,Low,36,30,33,E,25,44,1.7,0.23,28
+3,4,Low,Low,Low,36,29,33,S,17.3,42,0,0,25
+3,5,,,,,,,,,,,,
+3,6,,,,,,,,,,,,
+3,7,,,,,,,,,,,,
+3,8,,,,,,,,,,,,
+3,9,,,,,,,,,,,,
+3,10,,,,,,,,,,,,
+3,11,,,,,,,,,,,,
+3,12,,,,,,,,,,,,
+3,13,,,,,,,,,,,,
+3,14,,,,,,,,,,,,
+3,15,,,,,,,,,,,,
+3,16,,,,,,,,,,,,
+3,17,,,,,,,,,,,,
+3,18,,,,,,,,,,,,
+3,19,,,,,,,,,,,,
+3,20,,,,,,,,,,,,
+3,21,,,,,,,,,,,,
+3,22,,,,,,,,,,,,
+3,23,,,,,,,,,,,,
+3,24,,,,,,,,,,,,
+3,25,,,,,,,,,,,,
+3,26,,,,,,,,,,,,
+3,27,,,,,,,,,,,,
+3,28,,,,,,,,,,,,
+3,29,,,,,,,,,,,,
+3,30,,,,,,,,,,,,
+3,31,,,,,,,,,,,,
+4,1,,,,,,,,,,,,
+4,2,,,,,,,,,,,,
+4,3,,,,,,,,,,,,
+4,4,,,,,,,,,,,,
+4,5,,,,,,,,,,,,
+4,6,,,,,,,,,,,,
+4,7,,,,,,,,,,,,
+4,8,,,,,,,,,,,,
+4,9,,,,,,,,,,,,
+4,10,,,,,,,,,,,,
+4,11,,,,,,,,,,,,
+4,12,,,,,,,,,,,,
+4,13,,,,,,,,,,,,
+4,14,,,,,,,,,,,,
+4,15,,,,,,,,,,,,
+4,16,,,,,,,,,,,,
+4,17,,,,,,,,,,,,
+4,18,,,,,,,,,,,,
+4,19,,,,,,,,,,,,
+4,20,,,,,,,,,,,,
+4,21,,,,,,,,,,,,
+4,22,,,,,,,,,,,,
+4,23,,,,,,,,,,,,
+4,24,,,,,,,,,,,,
+4,25,,,,,,,,,,,,
+4,26,,,,,,,,,,,,
+4,27,,,,,,,,,,,,
+4,28,,,,,,,,,,,,
+4,29,,,,,,,,,,,,
+4,30,,,,,,,,,,,,
