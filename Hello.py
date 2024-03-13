@@ -13,6 +13,9 @@
 # limitations under the License.
 
 import streamlit as st
+import pandas as pd
+import numpy as np
+import altair as alt
 from streamlit.logger import get_logger
 
 LOGGER = get_logger(__name__)
@@ -24,28 +27,80 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# Welcome to the test of my first data visualization app! 👋")
 
     st.sidebar.success("Select a demo above.")
 
     st.markdown(
         """
-        Streamlit is an open-source app framework built specifically for
-        Machine Learning and Data Science projects.
-        **👈 Select a demo from the sidebar** to see some examples
-        of what Streamlit can do!
+        I am interested in presenting meteorological and snowpack data with aesthetic.  
+        **👈 Select something from the sidebar** to see what I haven't created yet!
         ### Want to learn more?
         - Check out [streamlit.io](https://streamlit.io)
         - Jump into our [documentation](https://docs.streamlit.io)
         - Ask a question in our [community
           forums](https://discuss.streamlit.io)
-        ### See more complex demos
-        - Use a neural net to [analyze the Udacity Self-driving Car Image
-          Dataset](https://github.com/streamlit/demo-self-driving)
-        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
     """
     )
 
 
 if __name__ == "__main__":
     run()
+
+# Load data
+df = pd.read_csv('/workspaces/mwac-vis/Working MWAC data.csv')
+
+# Mapping of wind direction categories to degrees
+direction_to_degrees = {
+    'N': 0,
+    'NE': 45,
+    'E': 90,
+    'SE': 135,
+    'S': 180,
+    'SW': 225,
+    'W': 270,
+    'NW': 315
+}
+
+# Replace the wind direction strings with their corresponding degree values
+df['Wind_Direction_Degrees'] = df['Wdir'].replace(direction_to_degrees)
+
+START_YEAR = 2023
+
+# Assign the correct year based on the month. Months 11 and 12 belong to the start year, and months 1 to 4 belong to the next year.
+df['Year'] = df['Month'].apply(lambda month: START_YEAR if month >= 11 else START_YEAR + 1)
+
+# Combine 'Year', 'Month', and 'Day' into a single 'Date' column
+df['Date'] = pd.to_datetime(df[['Year', 'Month', 'Day']])
+
+
+#WIND SPEED
+
+
+# Ensure the columns for wind gust and wind speed are numeric
+df['Wmax'] = pd.to_numeric(df['Wmax'], errors='coerce')
+df['Wavg'] = pd.to_numeric(df['Wavg'], errors='coerce')
+
+# Prepare the data for plotting by melting the DataFrame
+plot_data = df.melt(id_vars='Date', value_vars=['Wmax', 'Wavg'], var_name='Wind Type', value_name='Speed (mph)')
+
+# Create the line chart with Altair, making it interactive for zooming and panning
+line_chart = alt.Chart(plot_data).mark_line().encode(
+    x=alt.X('Date:T', axis=alt.Axis(title='Date', format='%b %d', labelAngle=-45)),  # Format date as "Month day", tilt labels
+    y=alt.Y('Speed (mph):Q', axis=alt.Axis(title='Speed (mph)')),  # Quantitative data type for the Y-axis
+    color='Wind Type:N',  # Nominal data type for color encoding to differentiate the lines
+    tooltip=['Date:T', 'Speed (mph):Q', 'Wind Type:N']  # Tooltip for interactivity
+).properties(
+    title='Wind Speed Analysis'
+).interactive(bind_x=True)  # Enable horizontal zooming and panning
+
+# Display the chart in Streamlit
+st.altair_chart(line_chart, use_container_width=True)
+
+
+
+
+
+# Display data
+st.write(df)
+
